@@ -1,0 +1,6 @@
+[loadbalancers]
+lb ansible_host=127.0.0.1 ansible_port=2222 ansible_user=vagrant ansible_private_key_file=/home/user/repos/vagrant/lb/.vagrant/machines/default/virtualbox/private_key
+[webservers]
+web ansible_host=127.0.0.1 ansible_port=2201 ansible_user=vagrant ansible_private_key_file=/home/user/repos/vagrant/web/.vagrant/machines/default/virtualbox/private_key
+[dbservers]
+db ansible_host=127.0.0.1 ansible_port=2200 ansible_user=vagrant ansible_private_key_file=/home/user/repos/vagrant/db/.vagrant/machines/default/virtualbox/private_key

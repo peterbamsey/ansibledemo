@@ -1,0 +1,14 @@
+---
+
+# Configure loadbalancers
+- hosts: loadbalancers
+  roles:
+    - lb
+# Configure webservers
+- hosts: webservers
+  roles:
+    - web
+# Configure db server
+- hosts:  dbservers
+  roles:
+    - db
